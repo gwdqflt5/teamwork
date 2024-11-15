@@ -1,19 +1,24 @@
 import "./Alixon.css"
+import { CARDS  } from  "../../static/Static"
 const Alixon = () => {
   return (
     <div className="alixon">
-        <div className="container">
-            <div className="alixon">
+        {
+          CARDS.map((item, index)=>{
+            return(
+              <div className="carda">
+                <img src={item.img} alt="" />
+                <h1>{item.title}</h1>
+                <p>{item.lorem}</p>
+                <div className="btns">
+                <button className="btn1">Try now</button>
+                <button className="btn2">Explore now</button>
 
-        <div className="ong">
-            <img src="https://frankfurt.apollo.olxcdn.com/v1/files/hdadmha2xjnj3-UZ/image;s=750x1000" alt="" />
-        </div>
-        <div className="chap">
-            <h2>Alixon Akbaraliyev</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum cumque amet tempora accusantium ex quidem eos itaque laboriosam reiciendis dolore praesentium, fugiat voluptatibus et iste laborum.</p>
-            </div>
-        </div>
-        </div>
+                </div>
+              </div>
+            )
+          })
+        }
     </div>
   )
 }
