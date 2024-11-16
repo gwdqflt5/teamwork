@@ -1,0 +1,36 @@
+
+.con {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 20px; 
+  flex-wrap: wrap; 
+}
+
+
+.left11 img {
+  max-width: 100%; 
+  height: auto; 
+  width: 400px;
+}
+
+
+.right11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  max-width: 500px; 
+  flex-grow: 1; 
+}
+
+
+.right11 h1 {
+  margin-bottom: 10px;
+}
+
+.right11 p {
+  line-height: 1.6;
+}

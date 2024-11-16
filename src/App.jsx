@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Behruzbek from "./components/Behruzbek/Behruzbek";
 import Murodjon from "./components/Murodjon/Murodjon";
 import Fayzullo from "./components/Fayzullo/Fayzullo";
+import Firdavs from "./components/Firdavs/Firdavs";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Behruzbek />
       <Murodjon />
       <Fayzullo />
+      <Firdavs />
     </>
   );
 }
