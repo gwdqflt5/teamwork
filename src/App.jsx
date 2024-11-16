@@ -7,7 +7,6 @@ import Murodjon from "./components/Murodjon/Murodjon";
 import Fayzullo from "./components/Fayzullo/Fayzullo";
 import Firdavs from "./components/Firdavs/Firdavs";
 import Muhammadali from "./components/Muhammadali/Muhammadali";
-import Mohista from "./components/Mohista/Mohista";
 
 function App() {
   return (
@@ -20,7 +19,7 @@ function App() {
       <Fayzullo />
       <Firdavs />
       <Muhammadali />
-      <Mohista/>
+
     </>
   );
 }
