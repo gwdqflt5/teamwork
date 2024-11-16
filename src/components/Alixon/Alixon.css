@@ -1,50 +1,71 @@
 .alixon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: #f9f9f9;
-  }
-  
-  .alixon .container {
-    max-width: 800px;
-    width: 100%;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-  }
-  
-  .alixon .container .alixon {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .alixon .ong {
-    flex: 1;
-    padding: 20px;
-  }
-  
-  .alixon .ong img {
-    width: 100%;
-    border-radius: 8px;
-    object-fit: cover;
-  }
-  
-  .alixon .chap {
-    flex: 2;
-    padding: 20px;
-  }
-  
-  .alixon .chap h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .alixon .chap p {
-    font-size: 16px;
-    color: #666;
-    line-height: 1.5;
-  }
-  
+  display: flex;
+  flex-wrap: wrap; /* Elementlarni bir necha qatorda joylashtirish */
+  gap: 20px;
+  justify-content: center;
+  background: #14041B;
+  padding: 20px;
+}
+
+.carda {
+  width: 374px;
+  height: 434px;
+  background: #090823;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  color: white;
+}
+
+.carda img {
+  width: 100%; /* Rasmni kartochka kengligiga moslashtirish */
+  height: 217px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.carda h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.carda p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.btn1, .btn2 {
+  width: 100px;
+  height: 36px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btn1 {
+  background: linear-gradient(97.16deg, #D10ED1 12.04%, #10A3DA 81.84%);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn2 {
+  background: none;
+  border: 2px solid;
+  border-radius:5px ;
+  border-image: linear-gradient(97.16deg, #D10ED1 12.04%, #10A3DA 81.84%);
+  border-image-slice: 1;
+  color: white;
+}
+.btns{
+  display: flex;
+  gap: 20px;
+}

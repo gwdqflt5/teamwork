@@ -6,6 +6,7 @@ import Behruzbek from "./components/Behruzbek/Behruzbek";
 import Murodjon from "./components/Murodjon/Murodjon";
 import Fayzullo from "./components/Fayzullo/Fayzullo";
 import Firdavs from "./components/Firdavs/Firdavs";
+import Muhammadali from "./components/Muhammadali/Muhammadali";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Murodjon />
       <Fayzullo />
       <Firdavs />
+      <Muhammadali />
     </>
   );
 }
