@@ -13,14 +13,12 @@ const Muhammadali = () => {
             porttitor
           </p>
         </div>
-        <div className="etc">
-          <div className="second-footer">
-            <h2>About Us</h2>
-            <a href="#">About MetaV</a>
-            <a href="#">Contact us</a>
-            <a href="#">FAQ</a>
-            <a href="#">Privacy Policy</a>
-          </div>
+        <div className="second-footer">
+          <h2>About Us</h2>
+          <a href="#">About MetaV</a>
+          <a href="#">Contact us</a>
+          <a href="#">FAQ</a>
+          <a href="#">Privacy Policy</a>
         </div>
       </footer>
     </div>
