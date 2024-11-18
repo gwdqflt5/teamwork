@@ -11,12 +11,12 @@ import Muhammadali from "./components/Muhammadali/Muhammadali";
 function App() {
   return (
     <>
-      <Navbar />
-      <Banner />
+      {/* <Navbar />
+      <Banner /> */}
       <Alixon />
-      <Behruzbek />
-      <Murodjon />
-      <Fayzullo />
+      {/* <Behruzbek /> */}
+      {/* <Murodjon />
+      <Fayzullo /> */}
       <Firdavs />
       <Muhammadali />
     </>
