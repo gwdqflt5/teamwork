@@ -7,6 +7,7 @@ import Murodjon from "./components/Murodjon/Murodjon";
 import Fayzullo from "./components/Fayzullo/Fayzullo";
 import Firdavs from "./components/Firdavs/Firdavs";
 import Muhammadali from "./components/Muhammadali/Muhammadali";
+import Mohista from "./components/Mohista/Mohista";
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
       {/* <Behruzbek /> */}
       {/* <Murodjon />
       <Fayzullo /> */}
+
       <Firdavs />
+      <Mohista></Mohista>
       <Muhammadali />
     </>
   );
