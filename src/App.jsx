@@ -15,9 +15,9 @@ function App() {
       {/* <Navbar />
       <Banner /> */}
       <Alixon />
-      {/* <Behruzbek /> */}
-      {/* <Murodjon />
-      <Fayzullo /> */}
+      {/* <Behruzbek /> 
+      <Murodjon /> */}
+      <Fayzullo />
 
       <Firdavs />
       <Mohista></Mohista>
