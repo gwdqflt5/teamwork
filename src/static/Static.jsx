@@ -14,5 +14,20 @@ export const CARDS=[
         title: 'Playing Games',
         lorem :'For gamers, the metaverse could be an interesting platform of choice for the..',
     },
+    {
+        img:["https://s3-alpha-sig.figma.com/img/7784/b74d/72756346e788a7f69ed87f524e658ddc?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WSYOXD2xc3eJp1LB6QbzBjdTIwuQ6vFLefUM3syRS5UW5D2fs4vwDEuPk4AImAaBk7g0I9Z05TCcS4X1-nGjHvGsKGDN6Mx0Lpbqb5Z8A2eTmFCApLlvdbAnVYLUdG7GIm~TjyG8BrbZ0KLQ6riQmSduwVIahb9-eIC7LWPOT3drZaRccAwKfG2Ar1MYEFoU~Wup7LyhVgaO3aOdNv~WpGCr6dxSLevZ3iTqSiqJFCpeu3eGkhxOqgU8jmKOFHjzcsLYNC4RyFLF4JNDY4l90I232EyjQjMWXFhiTP8-Hl5r5JlLJgAg0FAqxN4XnNEwLV-diULwLPFnl06OFxaYrw__"],
+        title: 'Online Travel',
+        lorem :'With cyberspace, online travel is certainly not impossible. We can do this with the help of..',
+    },
+    {
+        img:["https://s3-alpha-sig.figma.com/img/8962/e77c/2ee1c4e5ec60b340f8109bcc59792644?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MGFKzqxdsiZIjCAunfqvlT3dCiCk4YGFLAqgdZsxE2sb8n4GDDhR6lzazfT~oGl9JeRCmEqFKUBICGn8itiMyrUjWXi6jY7cGUNFH~JC38nkEPR7AgC8Jdfjr9atYjiQRujeqOMOsipl6v-m86rJrJTx~DxpSQfwnj3C6jtL3P2IuIVjsFpRldKjW78TfPCIWiB7MAh6imPHHgB9YhTWfrGdWPblaKKpS5Tw9ZwhV5y9UT4yHICWRoYvULcDA-r4hjf4S~KHdaiYAZgdDtEmEg7fA71hc2IMcyFXOOQj3gtHJ5J7feuHCCyElo5sfm9yYmHKQHu4iz6op6Eg7EcVtA__"],
+        title: 'Artworks',
+        lorem :'In the past, works of art such as paintings could only be seen in the real world..',
+    },
+    {
+        img:["https://s3-alpha-sig.figma.com/img/0ce7/4e7e/e31a3d4c9033138d7b7b1a0553b012d4?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=D9t2qENWL8GPMfd46zpipe7pei9JV2yVAywO8GzsT1KtrOdMIW1FdIzL95J~0O-5IAJzM8bspohUmsquW3GsP21G-D6cRNRiawts4fLq~mBEqoWGl0HQgixGkA4e0tseyG8ZIiAU-zx1Sdf2oNu3dI0ldTICYwrdj6vkGU8jtjKb8LPj7bmcfX6fu4nEK40mUPeoIf3B3EFlW~Dat3OlxBIkhCtJxyXf3BZ5lz0uUkJdr2ZbCMEGqNO1OwVvxaIEZ1FqQcnM-iJe83cseZa263QGP9QRroz4yBd0r2l4iBhGt-iV3-j4a7uPP2OauLBSaqE9xnMaH70EtcgoFMkR2A__"],
+        title: 'Digital Clothing',
+        lorem :'The community has also been active with the emergence of paintings or drawings..',
+    },
 
 ]

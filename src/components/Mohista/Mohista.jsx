@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./Mohista.css";
 
 const Mohista = () => {
-  // Rasmlar ro'yxati
   const photos = [
     {
       id: 1,
@@ -16,7 +15,6 @@ const Mohista = () => {
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Karuselni avtomatik almashtirish
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) =>
