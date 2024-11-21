@@ -41,7 +41,7 @@
   margin-bottom: 20px;
 }
 
-.btn1, .btn2 {
+.btn1 {
   width: 100px;
   height: 36px;
   border-radius: 5px;
@@ -58,6 +58,7 @@
 }
 
 .btn2 {
+  padding: 10px;
   background: none;
   border: 2px solid;
   border-radius:5px ;
@@ -68,4 +69,7 @@
 .btns{
   display: flex;
   gap: 20px;
+}
+.carda:hover{
+  transform: scale(1.1);
 }
